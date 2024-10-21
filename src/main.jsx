@@ -11,6 +11,7 @@ import ViewTrip from './view-trip/[tripId]/index.jsx';
 import MyTrips from './my-trips/index.jsx';
 
 
+
 const router = createBrowserRouter([
   {
     path:'/',

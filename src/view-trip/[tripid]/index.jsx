@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 
 function ViewTrip() {
 
+    
     const {tripId} = useParams();
     const[trip , setTrip] = useState([]);
 
