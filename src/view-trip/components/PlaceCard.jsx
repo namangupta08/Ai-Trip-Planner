@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import React ,{useEffect , useState} from 'react'
 import { Link } from 'react-router-dom'
-import { createClient } from 'pexels'
+
 
 function PlaceCard({place , trip}) {
 
