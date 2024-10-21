@@ -13,7 +13,7 @@ export default defineConfig({
     include: ['isomorphic-fetch'], // Include isomorphic-fetch to optimize it for the browser
   },
   ssr: {
-    noExternal: ['isomorphic-fetch'], // Exclude libraries that need Node.js features
+    noExternal: ['isomorphic-fetch', 'pexels'], // Exclude libraries that need Node.js features
   },
   // Optionally, set build options for chunk sizes
   build: {
