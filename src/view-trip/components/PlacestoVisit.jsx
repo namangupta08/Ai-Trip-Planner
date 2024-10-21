@@ -14,7 +14,7 @@ function PlacestoVisit({trip}) {
                     <div className='grid md:grid-cols-2 gap-5'>
                         {
                             item.plan.map((place) => (
-                                <div className='my-3 '>
+                                <div className='my-3 ' key={index}>
                                     <h2 className='font-medium text-sm text-orange-700'>{place.time}</h2>
                                     <PlaceCard place={place} trip={trip}/>
                                 </div>
