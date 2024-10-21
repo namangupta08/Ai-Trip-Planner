@@ -46,7 +46,7 @@ const FeaturedDestinations = () => {
           {
             imgSrc: "/destination2.jpeg",
             title: "Paris, France",
-            description: "Discover the romance of Paris, the city of lights , love ,fun and wramth.",
+            description: "Discover the romance of Paris, the city of lights , love ,fun and warmth.",
           },
           {
             imgSrc: "/destination3.jpeg",
